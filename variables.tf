@@ -16,3 +16,6 @@ variable "web_max_size" {
 variable "web_min_size" {
   type = number
 }
+variable "vpc_id" {
+  type = string
+}
