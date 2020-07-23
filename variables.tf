@@ -1,9 +1,6 @@
 variable "whitelist" {
   type = list(string)
 }
-variable "web_image_id" {
-  type = string
-}
 variable "web_instance_type" {
   type = string
 }
@@ -18,4 +15,10 @@ variable "web_min_size" {
 }
 variable "vpc_id" {
   type = string
+}
+variable "vpc_public_subnets" {
+  type = list
+}
+variable "vpc_private_subnets" {
+  type = list
 }
